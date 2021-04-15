@@ -12,6 +12,7 @@ class Ground
     }
     display()
     {
+      fill("brown");
       rectMode(CENTER);
       rect(this.body.position.x, this.body.position.y, this.bodyW, this.bodyH);
     }
